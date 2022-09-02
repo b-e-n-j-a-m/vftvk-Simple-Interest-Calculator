@@ -12,9 +12,8 @@ function compute(){
         document.getElementById("principal").focus();
         return;
     }
-
     // use string template with placeholders for cleaner code
-    msg=`If you deposit ${principal},<br>at an interest rate of ${rate}%<br>You will receive an amount of ${interest},<br>in the year ${year}<br>`;
+    msg=`If you deposit <text style="color:yellow">${principal}</text>,<br>at an interest rate of <text style="color:yellow">${rate}%</text><br>You will receive an amount of <text style="color:yellow">${interest}</text>,<br>in the year <text style="color:yellow">${year}</text><br>`;
     document.getElementById("result").innerHTML=msg;
 
     document.getElementById("principal").focus();
