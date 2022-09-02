@@ -22,13 +22,15 @@ h1 {
     display: grid;
     grid-template-columns: auto auto;
     padding: 10px;
-    align-content:center;
+    align-content:right;
   }
   
   .grid-item {
-    padding: 5px;
     font-size: 14px;
     text-align: left;
+    margin-top:5px;
+    width:50x;
+    align-content:left;
   }
 
   footer {
